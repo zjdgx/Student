@@ -1,0 +1,12 @@
+doctype html
+html
+	head
+		title=title
+		link(rel='stylesheet', href='todo/todo.css')
+	body
+		div.main
+		script(src='common/require.js')
+		script.
+			require(['zjdgx'], function(zjdgx) {
+				zjdgx.todoMain();
+			});

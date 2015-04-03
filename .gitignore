@@ -1,0 +1,5 @@
+.idea
+node_modules
+code
+secret.txt
+bower_components
